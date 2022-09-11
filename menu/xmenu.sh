@@ -24,7 +24,7 @@ echo "╔═══════════════════════�
 echo "║ ┃ Link Script ┃  ┃ https://github.com/thebest48/multiport ┃     ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                     ┃ XRAY XMENU ┃                                         ║" 
+echo "║                     ┃ XRAY XMENU ┃                              ║" 
 echo "╚═════════════════════════════════════════════════════════════════╝"  
 echo "║ 1. Buat Semua Akun XRAY   ┃ Create Account                       ║"
 echo "║ 2. Hapus Akun XRAY        ┃ Delete Account                       ║"
@@ -36,7 +36,7 @@ echo "║ 7. XRAY UPDATE SCRIPT     ┃ Update Script                        ║
 echo "║ 8. Hidupkan Ulang Xray    ┃ Restart Service XRAY                 ║"
 echo "║ 9. Perbarui Sertifikat    ┃ Update Certificate                   ║"
 echo "║ 10.Tambahkan Domain       ┃ ADD DOMAIN                           ║"
-echo "║ 11.CARA POINTING DOMAIN   ┃                                      ║"
+echo "║ 11.CARA POINTING DOMAIN   ┃ TUTORIAL POINTING DOMAIN             ║"
 echo "║ 12.Test Kecepatan Server  ┃ Speedtest Server                     ║"
 echo "║ 13.Hidupkan Ulang VPS     ┃ Reboot                               ║"
 echo "║ 14.Keluar Dari Menu       ┃ Exit Menu                            ║"
@@ -59,13 +59,13 @@ cat /etc/xray/domain
 curl -s ipinfo.io/ip
 ;;
 5)
-updatedll
+updatedsc
 ;;
 6)
 updatecore
 ;;
 7)
-updatesc
+updatedll
 ;;
 8)
 restart-xray
