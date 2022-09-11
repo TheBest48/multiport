@@ -18,7 +18,7 @@ fi
 echo -e "IP-VPS          :  $IPVPS"
 echo -e "ISP-VPS         :  $ISPVPS"
 echo "╔═════════════════════════════════════════════════════════════════╗"
-echo "║                     ┃ Script By TheBest ┃                       ║" 
+echo "\E[0;41;36m                      ┃ Script By TheBest ┃                       \E[0m" 
 echo "╚═════════════════════════════════════════════════════════════════╝"
 echo "╔═════════════════════════════════════════════════════════════════╗"
 echo "║ ┃ Link Script ┃  ┃ https://github.com/thebest48/multiport ┃     ║" 
